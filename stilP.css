@@ -1,0 +1,122 @@
+@media screen and (min-width:700px) {
+    body {
+        background-image: url("Politica/fundal4.jpeg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+    * {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    nav {
+        height: 20px;
+        margin-bottom: 2px;
+
+
+    }
+
+    nav p a {
+        margin: 5px;
+        font-size: 18px;
+        color: black;
+        display: inline-flex;
+        text-decoration: none;
+        top: 0;
+
+    }
+
+    .c2 {
+        background-color: silver;
+        float: right;
+    }
+
+    .c1 {
+        background-color: silver;
+        float: left;
+    }
+
+    h1 {
+        color: black;
+        background-color: silver;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    section img {
+        float: left;
+        width: 600px;
+        height: 500px;
+        margin: 10px;
+    }
+
+    #Poza {
+        float: right;
+    }
+
+    section p {
+        text-align: inherit;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    h2 {
+        color: white;
+        font-size: 22px;
+    }
+
+    img#FI {
+        border: 8px solid white;
+        margin-left: 30%;
+        width: 500px;
+        height: 400px;
+    }
+
+    p#FamImp {
+        float: right;
+    }
+}
+@media screen and (max-width:700px){
+    body{
+        background-image:url("Politica/fundal2.jpeg") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .c1{
+        visibility: hidden;
+    }
+    .c2{
+        visibility: hidden;
+    }
+
+    h1 {
+        color: darkred;
+        background-color: white;
+        text-align: center;
+        margin: 10px;
+    }
+    h2 {
+        color: black;
+    }
+    section p {
+        text-align: inherit;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    section img {
+        float: left;
+        width: 300px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    #Poza {
+        float: right;
+    }
+}

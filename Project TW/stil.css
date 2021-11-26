@@ -1,0 +1,362 @@
+@media screen and (min-width:700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    nav {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        top: 0;
+        background-color: rgba(219, 245, 164, 0.82);
+        display: flex;
+        justify-content: space-between;
+        z-index:10;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+        display: block;
+    }
+
+    ul.Meniu {
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+
+
+    ul.Meniu li:hover {
+        background-color: lightpink;
+    }
+
+    ul.Meniu > li > ul.submeniu {
+        visibility: hidden;
+        list-style-type: none;
+        background-color: lightpink;
+
+    }
+
+    ul.Meniu > li:hover > ul.submeniu {
+        visibility: visible;
+        background-color: plum;
+    }
+
+    div.subtitlu {
+        color: white;
+        font-size: 2.4em;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #Flower {
+        visibility:hidden;
+        height: 0;
+        position: relative;
+        top: -4px;
+        animation-duration: 8s;
+        animation-name: move;
+        animation-iteration-count: infinite;
+        justify-content: space-around;
+
+    }
+
+    #Flower1 {
+        visibility: hidden;
+        height: 0;
+        position: relative;
+        top: -4px;
+        animation-duration: 10s;
+        animation-name: move;
+        animation-iteration-count: infinite;
+        justify-content: space-around;
+
+    }
+
+    #Flower2 {
+        visibility:hidden;
+        height: 0;
+        position: relative;
+        top: -4px;
+        animation-duration: 12s;
+        animation-name: move;
+        animation-iteration-count: infinite;
+        justify-content: space-around;
+
+    }
+
+    #Flower3 {
+        visibility: hidden;
+        height: 0;
+        position: relative;
+        top: -4px;
+        animation-duration: 14s;
+        animation-name: move;
+        animation-iteration-count: infinite;
+        justify-content: space-around;
+
+    }
+
+    div#Flower img {
+        position: relative;
+        height: 150px;
+        visibility: visible;
+    }
+
+    div#Flower1 img {
+        position: relative;
+        margin-left: 500px;
+        height: 150px;
+        visibility: visible;
+    }
+
+    div#Flower2 img {
+        position: relative;
+        margin-left: 800px;
+        height: 150px;
+        visibility: visible;
+    }
+
+    div#Flower3 img {
+        position: relative;
+        margin-left: 1200px;
+        height: 150px;
+        visibility: visible;
+    }
+
+    @keyframes move {
+        0% {
+            top: 0;
+        }
+        25% {
+            right: 700px;
+            bottom: 600px;
+        }
+        50% {
+            bottom: 800px
+        }
+        65% {
+            right: 500px;
+            top: 500px;
+            bottom: 1400px
+        }
+        85% {
+            top: 500px;
+            bottom: 1400px
+        }
+        100% {
+            right: 400px;
+            top: 1200px
+        }
+        100% {
+            left: 5px;
+        }
+    }
+
+    main {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    div#Portofoliu {
+        display: grid;
+        grid-template-areas: 'fig1 fig2' 'fig3 fig4';
+        justify-content: center;
+        grid-row-gap: 15px;
+        grid-column-gap: 30px;
+
+    }
+    #Portofoliu img{
+        width: 100%;
+        height: 100%;
+    }
+    div#Portofoliu > figure {
+        border: 4px mistyrose solid;
+        transition: position 2s, z-index 2s, transform 3s;
+        animation-name: treptat;
+        animation-duration: 3.5s;
+        animation-fill-mode: both;
+    }
+
+    div#Portofoliu > figure:hover {
+        position: relative;
+        z-index: auto;
+        transform: scale(0.7);
+
+    }
+
+    body {
+        background-color: #f1c1c7;
+    }
+
+    footer {
+        margin: 9px;
+        border: 10px solid rosybrown;
+        background-color: mediumpurple;
+    }
+
+    ul > li {
+        list-style: none;
+        color: antiquewhite;
+        font-size: 20px;
+        font-style: italic;
+        margin: 4px;
+    }
+
+    h2 {
+        font-style: oblique;
+        color: #00008b;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+    @media screen and (max-width:700px){
+        nav {
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            top: 0;
+            background-color: peachpuff;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul a {
+            float: top;
+            color: white;
+            display: block;
+            text-decoration:none;
+
+        }
+
+        ul.Meniu {
+            justify-content: unset;
+            padding: 5px;
+            list-style: none;
+
+        }
+        ul.Meniu>li{
+            text-decoration:none;
+            top: 0;
+        }
+        ul.Meniu li:hover {
+            background-color: lightpink;
+        }
+
+        ul.Meniu > li > ul.submeniu {
+            visibility: hidden;
+            list-style-type: none;
+            background-color: silver;
+
+        }
+
+        ul.Meniu > li:hover > ul.submeniu {
+            visibility: visible;
+            background-color: #ec9292;
+        }
+
+        div.subtitlu {
+            color: white;
+            font-size: 1.4em;
+            margin-top: 4px;
+            margin-right: 10px;
+        }
+
+
+        body{
+            background-image: url("Politica/fundal3.jpeg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        main {
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+    img{
+        width: 200px;
+        height: auto;
+    }
+        div#Portofoliu {
+            display: grid;
+            grid-template-areas: 'fig1 fig2' 'fig3 fig4';
+            justify-content: center;
+            grid-row-gap: 15px;
+            grid-column-gap: 30px;
+
+        }
+
+        div#Portofoliu > figure {
+            border: 4px mistyrose solid;
+            transition: position 2s, z-index 2s, transform 3s;
+            animation-name: treptat;
+            animation-duration: 3.5s;
+            animation-fill-mode: both;
+        }
+
+        div#Portofoliu > figure:hover {
+            position: relative;
+            z-index: auto;
+            transform: scale(0.5);
+
+        }
+        #Flower {
+            visibility: hidden;
+            top:0;
+            width: 0;
+            height: 0;
+        }
+        #Flower1 {
+            visibility: hidden;
+            top:0;
+            width: 0;
+            height: 0;
+        }
+        #Flower2 {
+            visibility: hidden;
+            top:0;
+            width: 0;
+            height: 0;
+        }
+        #Flower3 {
+            visibility: hidden;
+            top:0;
+            width: 0;
+            height: 0;
+        }
+        footer{
+            border: 4px solid darkred;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+    

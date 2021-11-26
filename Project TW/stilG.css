@@ -1,0 +1,289 @@
+@media screen and (min-width:700px) {
+    * {
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: radial-gradient(ellipse, lightgrey, lightskyblue, lightseagreen, lightgreen, lightcyan)
+    }
+
+    nav {
+        height: 30px;
+        margin-bottom: 40px;
+    }
+
+    nav ul a {
+        color: black;
+        display: block;
+        text-decoration: none;
+        list-style: none;
+
+
+    }
+
+    .c2 {
+        float: right;
+        list-style: none;
+    }
+
+    .c1 {
+        float: left;
+        list-style: none;
+    }
+
+    div#first > h1 {
+        margin-left: 60px;
+        color: darkslategray;
+        font-style: oblique;
+        font-family: fantasy;
+        font-size: 40px;
+    }
+
+    div#first > img {
+        width: 75%;
+        height: 280px;
+        margin-left: 18%;
+        border-radius: 85%;
+        border: 3px solid mediumspringgreen;
+        transition: position 2s, z-index 3s, transform 2s;
+        animation-name: treptat;
+        animation-duration: 3.5s;
+        animation-fill-mode: forwards;
+    }
+
+    div#second {
+        box-sizing: border-box;
+        margin-right: 8px;
+        margin-left: 20px;
+        margin-top: 60px;
+        border: 6px dotted floralwhite;
+
+    }
+
+    b {
+        margin-left: 10px;
+    }
+
+    div#second p {
+        box-sizing: border-box;
+        margin-left: 23px;
+        margin-top: 5px;
+    }
+
+    #F {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    div#first > img:hover {
+        position: relative;
+        z-index: auto;
+        transform: scale(1.5);
+
+    }
+
+    #Table1 > section h2 {
+        color: darkslateblue;
+        font-size: 30px;
+        font-family: "Comic Sans MS";
+        font-style: italic;
+        text-align: center;
+        text-indent: 30px;
+        margin-top: 4px;
+        margin-right: 5px;
+    }
+
+    #Table1 > section img {
+        height: fit-content;
+        margin-left: 100px;
+        animation-name: spinner;
+        animation: spinner 2s infinite;
+        animation-fill-mode: initial;
+    }
+
+    @keyframes spinner {
+        0% {
+            transform: rotate3d(1, 1, 1, 0deg);
+        }
+
+        100% {
+            transform: rotate3d(1, 1, 1, 360deg);
+        }
+
+    }
+    #Table > p {
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.5);
+        visibility: visible;
+        display: grid;
+        justify-content: space-around;
+        font-style: italic;
+        font-family: "Yu Gothic UI Semibold";
+        font-size: 15px;
+    }
+
+    #Table1 > section {
+        flex-direction: row;
+        display: flex;
+
+        position: relative;
+        justify-content: space-around;
+
+
+    }
+
+    #Table1 section {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 8px;
+        margin-right: 10px;
+    }
+
+    img {
+        width: 736px;
+        height: 490px;
+    }
+
+    h3 {
+        color: mediumvioletred;
+        font-size: 30px;
+        font-family: "Yu Gothic Light";
+
+    }
+
+    #Animation {
+        display: flex;
+        flex-wrap: nowrap;
+        animation-name: miscare;
+        animation-delay: 1s;
+        animation-duration: 70s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    @keyframes miscare {
+        0% {
+            margin-left: 0;
+        }
+        100% {
+            margin-left: -2000px;
+        }
+    }
+    #Animation:hover {
+        animation-play-state: running;
+    }
+}
+@media screen and (max-width:700px) {
+    body{
+        background-color: mediumaquamarine;
+    }
+    nav {
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    nav ul a {
+        color: black;
+        display: block;
+        text-decoration: none;
+        list-style: none;
+
+
+    }
+
+    .c2 {
+        float: right;
+    }
+
+    .c1 {
+        float: left;
+    }
+    div#first > h1 {
+        float: left;
+        color: silver;
+        font-style: oblique;
+        font-family: fantasy;
+        font-size: 20px;
+    }
+
+    div#first > img {
+        border-radius: 80%;
+        border: 3px solid silver;
+        transition: position 2s, z-index 3s, transform 2s;
+        animation-name: treptat;
+        animation-duration: 3.5s;
+        animation-fill-mode: backwards;
+    }
+
+    div#first > img:hover {
+        z-index: auto;
+        transform: scale(0.9);
+
+    }
+
+    #Animation {
+        display: flex;
+        flex-wrap: nowrap;
+        animation-name: miscare;
+        animation-delay: 1s;
+        animation-duration: 70s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    @keyframes miscare {
+        0% {
+            margin-left: 0;
+        }
+        100% {
+            margin-left: -2000px;
+        }
+    }
+    #Animation:hover {
+        animation-play-state: running;
+    }
+
+
+    #Table > p {
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.5);
+        visibility: visible;
+        display: grid;
+        justify-content: space-around;
+        font-style: italic;
+        font-family: "Yu Gothic UI Semibold";
+        font-size: 15px;
+    }
+
+    #Table1 > section {
+        flex-direction: row;
+        display: flex;
+
+        position: relative;
+        justify-content: space-around;
+
+
+    }
+
+    #Table1 section {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 8px;
+        margin-right: 10px;
+    }
+    img {
+        width: 500px;
+        height: 300px;
+    }
+
+}
+

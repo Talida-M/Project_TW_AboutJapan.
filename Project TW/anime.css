@@ -1,0 +1,88 @@
+nav{
+    height: 30px;
+    margin-bottom: 40px;
+}
+nav ul a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+.c2{
+    float: right;
+}
+.c1{
+    float: left;
+}
+img{
+    width:560px;
+    height: 500px;
+}
+
+
+.S{
+    margin-left: 15px;
+    width: 120px;
+    height: 100px;
+    float: right;
+}
+
+#Quizz img{
+    width:800px;
+    height:400px;
+    position: center;
+    border: 4px;
+    border-color: silver;
+    border-style: solid;
+}
+.Quizz{
+    visibility: hidden;
+    font-size:21px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+p{
+    font-size:18px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+li{
+    background-color: rgba(255,255,255,0.5);
+    font-size:18px;
+}
+h2{
+    font-size:18px;
+    background-color: rgba(255,255,255,0.5);
+}
+h4{
+    font-size:18px;
+    background-color: rgba(255,255,255,0.5);
+}
+#formular{
+    visibility: hidden;
+
+}
+#an_container{
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    font-size:26px;
+    border: solid 3px;
+    border-color: palegreen;
+    color: #f09;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #f09,
+            0 0 82px #f09,
+            0 0 92px #f09,
+            0 0 102px #f09,
+            0 0 151px #f09;
+
+
+}
+body{
+    background-color: powderblue;
+}

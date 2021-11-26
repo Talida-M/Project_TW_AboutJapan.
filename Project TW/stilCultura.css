@@ -1,0 +1,261 @@
+@media screen and (min-width:700px) {
+    * {
+        font-size: 18px
+    }
+
+    section h1 {
+        text-align: center;
+        background-color: lightgrey;
+        color: lightslategrey;
+        bottom: 3px;
+    }
+
+    nav {
+        height: 20px;
+        margin-bottom: 2px;
+
+
+    }
+
+    nav p a {
+        color: black;
+        display: block;
+        text-decoration: none;
+        top: 0;
+
+    }
+
+    .c2 {
+        margin-top: 2px;
+        float: right;
+    }
+
+    .c1 {
+        margin-top: 2px;
+        float: left;
+    }
+
+    video {
+        top: 5px;
+        height: 600px;
+        margin-left: 250px;
+
+    }
+
+    div#Prim-fragm {
+        text-align: center;
+
+    }
+
+    #Religie {
+        background-color: lightgrey;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width: 700px;
+        display: flex;
+    }
+
+    section img {
+        width: 700px;
+        height: 400px;
+    }
+
+    #Religie img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Religie p {
+        flex: 1 1 auto;
+    }
+
+    #Arta_Ceaiului {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: lightgreen;
+        border: 20px solid silver;
+        padding: 20px 40px 40px;
+        max-width: 700px;
+        float: right;
+    }
+
+    #Arta_Ceaiului img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Arta_Ceaiului p {
+        display: inline-flex;
+    }
+
+    #F1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #ec9292;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width: 700px;
+        float: left;
+    }
+
+    #F1 img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Sporturi {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rosybrown;
+        border: 20px solid silver;
+        padding: 20px 40px 40px;
+        max-width: 700px;
+        float: right;
+    }
+
+    #Sporturi img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Samurai {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: darkred;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width: 700px;
+        float: left;
+    }
+
+    #Samurai img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Samurai p {
+        display: inline;
+    }
+}
+@media screen and (max-width:700px) {
+    section h1 {
+        text-align: center;
+        background-color: lightgrey;
+        color: lightslategrey;
+        bottom: 3px;
+    }
+
+    video {
+        top: 5px;
+        width: 100%;
+     position: center;
+    }
+
+
+    #Religie {
+        background-color: lightgrey;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width: 400px;
+        display: flex;
+    }
+
+    section img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #Religie img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Religie p {
+        flex: 1 1 auto;
+    }
+
+    #Arta_Ceaiului {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: lightgreen;
+        border: 20px solid silver;
+        padding: 20px 40px 40px;
+        max-width: 400px;
+        float: right;
+    }
+
+    #Arta_Ceaiului img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Arta_Ceaiului p {
+        display: inline-flex;
+    }
+
+    #F1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #ec9292;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width:400px;
+        float: left;
+    }
+
+    #F1 img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Sporturi {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rosybrown;
+        border: 20px solid silver;
+        padding: 20px 40px 40px;
+        max-width: 400px;
+        float: right;
+    }
+
+    #Sporturi img {
+        margin: 20px 30px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Samurai {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: darkred;
+        border: 20px solid black;
+        padding: 20px 40px 40px;
+        max-width: 400px;
+        float: left;
+    }
+
+    #Samurai img {
+        margin: 10px 20px 0 0;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+
+    #Samurai p {
+        display: inline-flex;
+    }
+
+
+}
+
+
+
+
+

@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 30px;
+    margin-bottom: 40px;
+}
+nav ul a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+embed{
+    visibility: hidden;
+    height: 0;
+    width: 1px;
+}
+body{
+    background-color: floralwhite;
+}
+#Info{
+    background-image: url("Tokyo.jpeg");
+    background-repeat: no-repeat;
+
+}
+h1{
+    background-color: rgba(255,255,255,0.5);
+    color: crimson;
+    font-family: "Yu Gothic UI Semibold";
+}
+#Info p{
+    background-color: rgba(255,255,255,0.5);
+
+    color: black;
+    font-family: "Arial Black";
+    font-size: 15px;
+}
+.c2{
+    float: right;
+}
+.c1{
+    float: left;
+}
+img{
+    width:500px;
+    height: 400px;
+}
+
+
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+div#Galerie {
+    columns: 4 200px;
+    column-gap: 1.5rem;
+   /* width: 90%;*/
+    margin: 0 1.5rem 1.5rem 0;
+    display: flow;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all .25s ease-in-out;
+}
+
+img {
+    width: 400px;
+    height:400px;
+    filter: grayscale(100%);
+    transition: all .25s ease-in-out;
+}
+#Galerie :hover img {
+    filter: grayscale(0);
+}
+
+#Titlu h2{
+    color: palevioletred;
+    font-family: "HoloLens MDL2 Assets";
+    font-size: 20px;
+    background-color: floralwhite;
+}
+footer{
+    margin-top: 10px;
+   background-color: #f1c1c7;
+}
+footer p{
+    font-size: 20px;
+    color: chocolate;
+    margin: 15px;
+
+}
+.Kawaii img{
+    filter: none;
+    width: 200px;
+    height: 200px;
+   margin: 20px;
+    justify-content: space-between;
+
+}
